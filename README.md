@@ -91,7 +91,7 @@ arch-chroot /mnt
 
 ```bash
 # Set up locale and system language
-# (Remember to uncomment 'en_US.UTF-8 UTF-8' in /etc/locale.gen first using the `nano` command)
+# make sure to uncomment 'en_US.UTF-8 UTF-8' in /etc/locale.gen first using the nano command
 locale-gen
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
 
